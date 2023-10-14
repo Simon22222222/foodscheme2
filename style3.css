@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in element size */
+}
+
+body {
+  background-image: url(texture.jpg);
+  font-size: 1vw; /* Adjust base font size relative to viewport width */
+}
+
+nav {
+  height: 9vh;
+  background-color: #687edd;
+  text-align: center;
+}
+
+ul li:not(#ingredienser) {
+  margin-top: 25px; /* Adjust margin relative to viewport height */
+  display: inline-block;
+  font-size: 3vh; /* Adjust font size relative to viewport width */
+  margin-left: 2vw; /* Adjust margin relative to viewport width */
+}
+
+ul li a {
+  text-decoration: none;
+  background-color: #1f2a7c;
+  border-radius: 4px;
+  padding: 1vw; /* Adjust padding relative to viewport width */
+  color: whitesmoke;
+}
+
+a:hover {
+  background-color: #2b01ff;
+}
+
+section:not(#lagning, #ingredients-container) {
+  margin-left: 2vw;
+  border: 1px solid black;
+  border-width: 0 0 2vh 0; /* Adjust border width relative to viewport height */
+  padding: 2vw; /* Adjust padding relative to viewport width */
+}
+
+ul:not(#navbar) {
+  margin-left: 1cm;
+}
+
+strong {
+  font-size: 4vw; /* Adjust font size relative to viewport width */
+}
+
+h2 {
+  color: blue;
+  font-size: 4vw; /* Adjust font size relative to viewport width */
+}
+
+h4 {
+  margin-left: 2vw; /* Adjust margin relative to viewport width */
+  font-size: 2vw; /* Adjust font size relative to viewport width */
+}
+
+.vertical-align-container {
+  width: 100%; /* Expand container to full width */
+}
+
+.text-box {
+  margin-right: 4vw; /* Adjust spacing between texts relative to viewport width */
+  border: 3px solid #333;
+  padding: 2vw;
+  font-size: 2vw;
+  margin-bottom: 2vh; /* Adjust margin relative to viewport height */
+}

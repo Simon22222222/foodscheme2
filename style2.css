@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    height: 10vh;
+    background-color: #b8b9bf;
+    text-align: center;
+    font-size: 50px;
+  }
+  ul li {
+    margin-top: 25px;
+    display: inline-block;
+    font-size: 2vw;
+    margin-left: 4vw;
+  }
+  ul li a {
+    text-decoration: none;
+    background-color:#525359;
+    border-radius: 4px;
+    padding: 4px;
+    color: whitesmoke;
+  }
+  
+  a:hover {
+    background-color: #303032;;
+  }
+
+table, th {
+    width: 50vw;
+    table-layout: fixed;
+    text-align: center;
+    border-collapse: collapse;
+    border: 5px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#title {
+    color: red;
+    padding-top: 50px;
+    font-size: 37px;
+    height: 2cm;
+}
+
+tr:not(#title) {
+    height: 10vh; /* Adjust the height as needed */
+}
